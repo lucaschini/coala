@@ -1,2 +1,3 @@
-# coala
+# COALA
 ...
+Um website focado em auxiliar e conscientizar a população sobre pessoas autistas
