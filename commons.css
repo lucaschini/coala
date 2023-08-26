@@ -1,0 +1,49 @@
+/* O que tem de comum em todas as páginas */
+
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    color: #212832;
+    background-color: #F1F1F1;
+}
+
+/*Barra de Rolagem*/
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #F1F1F1;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #5CCCE6;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid #5CCCE6;  /* creates padding around scroll thumb */
+  }
+
+/*CABEÇALHO*/
+
+header {
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header li {
+    padding: 2rem 5rem;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
