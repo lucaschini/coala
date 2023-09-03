@@ -1,7 +1,7 @@
 section {
   margin: 3rem 6rem;
   width: 28vw;
-  height: 80vh;
+  height: 70vh;
 }
 
 section h4 {
@@ -11,7 +11,7 @@ section h4 {
 }
 
 .txt1 h1 {
-  color: #1D224F;
+  color: #1d224f;
   font-size: 55px;
   text-align: justify;
 }
@@ -29,4 +29,55 @@ section h4 {
   padding: 15px;
   font-weight: 600;
   border-radius: 32px;
+}
+
+.tea {
+  background-image: url("img/quadro-azul.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.text-tea {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6rem;
+  padding-left: 118px;
+}
+
+.text-tea h2 {
+  color: #ffffff;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.text-tea p {
+  justify-content: center;
+  color: #ffffff;
+  font-size: 32px !important;
+  font-weight: 400;
+}
+
+.caa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caa h2 {
+  color: #1d224f;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.caa p {
+  color: #5e6282;
+  font-size: 36px;
+  font-weight: 400;
 }
