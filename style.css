@@ -59,3 +59,13 @@ section h4 {
     width: 50vw;
 }
 
+#saiba-mais {
+    padding: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #1B9ACD;
+    border-radius: 25px;
+    width: 50px;
+    margin-top: 2rem;
+}
+
