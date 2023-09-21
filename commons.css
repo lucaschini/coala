@@ -46,3 +46,22 @@ header li {
 a {
     text-decoration: none;
 }
+
+footer {
+  background: linear-gradient(180deg, #1FA9E0 0%, #97EFF0 86%);
+  color: #00425D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rem 12rem;
+  font-size: 18px;
+}
+
+.cont {
+  margin: 4rem 16rem 5rem 8rem;
+  font-size: 18px;
+}
+
+.cont img {
+  height: 500px;
+}
