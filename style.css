@@ -69,3 +69,29 @@ section h4 {
     margin-top: 2rem;
 }
 
+.metodos img {
+    height: 80px;
+    border-radius: 20px;
+}
+
+.metodos {
+    display: flex;
+    flex-direction: row;
+}
+
+.met1, .met2, .met3 {
+    background-color: #e4e2e2;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 5px rgba(80, 80, 80, 0.43);
+}
+
+.met1, .met2 {
+    margin-right: 2rem;
+}

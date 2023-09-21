@@ -58,10 +58,7 @@ footer {
 }
 
 .cont {
-  margin: 4rem 16rem 5rem 8rem;
+  margin: 6rem 16rem 6rem 8rem;
   font-size: 18px;
-}
-
-.cont img {
-  height: 500px;
+  min-height: 43vh;
 }
