@@ -5,7 +5,7 @@
 .blob {
   width: 846.154px;
   height: 1341.833px;
-  position: fixed;
+  position: absolute;
   flex-shrink: 0;
   right: -248px;
   top: -741px;

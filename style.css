@@ -1,5 +1,5 @@
 section {
-    margin: 3rem 6rem;
+    margin: 3rem 8rem;
     width: 28vw;
     height: 80vh;
 }
@@ -29,4 +29,36 @@ section h4 {
     padding: 15px;
     font-weight: 600;
     border-radius: 32px;
+}
+
+.tea {
+    margin: 3rem 8rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tea p {
+    text-align: justify;
+    width: 50vw;
+    margin-right: 3rem;
+}
+
+.caa {
+    margin: 3rem 8rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.caa p {
+    text-align: justify;
+    width: 50vw;
+    margin-left: 3rem;
+}
+
+
+footer {
+    background-color: #3f9cb1;
+    color: #ffffff;
 }
