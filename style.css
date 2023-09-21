@@ -32,16 +32,19 @@ section h4 {
 }
 
 .tea {
-    margin: 3rem 8rem;
+    padding: 3rem 8rem;
     font-size: 18px;
     display: flex;
     flex-direction: row;
+    background: linear-gradient(90deg, #1B9ACD 0%, #5CCCE6 100%);
+    width: 100%;
 }
 
-.tea p {
+.tea p, .tea h2 {
     text-align: justify;
     width: 50vw;
-    margin-right: 3rem;
+    padding-right: 3rem;
+    color: #ffffff;
 }
 
 .caa {
@@ -54,11 +57,5 @@ section h4 {
 .caa p {
     text-align: justify;
     width: 50vw;
-    margin-left: 3rem;
 }
 
-
-footer {
-    background-color: #3f9cb1;
-    color: #ffffff;
-}
