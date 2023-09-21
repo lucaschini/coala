@@ -1,48 +1,79 @@
 /* O que tem de comum em todas as páginas */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100vw;
   font-family: "Poppins", sans-serif;
+  color: #212832;
 }
-body{
-    display: flex;
-    flex-direction: column;
+
+/*Barra de Rolagem*/
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5ccce6; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid #5ccce6; /* creates padding around scroll thumb */
+}
+
+/*CABEÇALHO*/
+
+header {
+  padding: 2rem 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header li {
+  padding: 2rem 5rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
 }
 
 .blob {
-  width: 846.154px;
-  height: 1341.833px;
-  position: fixed;
-  flex-shrink: 0;
-  right: -248px;
-  top: -741px;
+  position: absolute;
+  top: -273px;
+  right: -243px;
 }
 
-.header {
-  padding: 2rem;
-  padding-left: 5rem;
+.footer {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 10rem;
+  padding: 5rem 0;
+  background-image: url("img/linear-footer.svg");
+  background-size: cover;
 }
 
-.header ul {
-  display: flex;
-  justify-content: center;
-  gap: 10rem;
-}
-
-.header li {
-  list-style: none;
-}
-
-.header a {
-  text-decoration: none;
-  color: #212832;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
+.f-title {
+  color: #00425d;
+  font-size: 40px;
+  font-weight: 700;
   line-height: normal;
+  text-transform: uppercase;
+}
+
+.f-content{
+  color: #00425D;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
