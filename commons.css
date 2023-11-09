@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
   }
 
 /*CABEÇALHO*/
-
+/*
 header {
     padding: 2rem 6rem;
     display: flex;
@@ -61,4 +61,65 @@ footer {
   margin: 6rem 16rem 6rem 8rem;
   font-size: 18px;
   min-height: 43vh;
+}
+*/
+
+/* Estilos gerais que se aplicam a todas as telas */
+header {
+  padding: 2rem 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header li {
+  padding: 2rem 3%;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+background: linear-gradient(180deg, #1FA9E0 0%, #97EFF0 86%);
+color: #00425D;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 2rem 5%;
+font-size: 16px;
+}
+
+.cont {
+margin: 6rem 5% 6rem 5%;
+font-size: 16px;
+min-height: 43vh;
+}
+
+/* Estilos específicos para telas menores, por exemplo, telas com largura de até 768px */
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  header li {
+      padding: 1rem 0;
+  }
+
+  footer {
+      padding: 2rem 5%;
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .cont {
+      margin: 2rem 5%;
+  }
 }

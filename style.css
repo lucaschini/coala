@@ -1,3 +1,5 @@
+/* 
+
 section {
     margin: 3rem 8rem;
     width: 28vw;
@@ -94,4 +96,124 @@ section h4 {
 
 .met1, .met2 {
     margin-right: 2rem;
+}
+
+*/
+
+section {
+    margin: 3rem 5%;
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+}
+
+section h4 {
+    color: #42aab8;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.txt1 h1 {
+    color: #1D224F;
+    font-size: 3rem;
+    text-align: justify;
+}
+
+.txt1 p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.txt1 a {
+    background-color: #3f9cb1;
+    color: #ffffff;
+    font-size: 1.4rem;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border-radius: 32px;
+}
+
+.tea {
+    padding: 3rem 5%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #1B9ACD 0%, #5CCCE6 100%);
+}
+
+.tea p, .tea h2 {
+    text-align: justify;
+    color: #ffffff;
+}
+
+.caa {
+    margin: 3rem 5%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.caa p {
+    text-align: justify;
+}
+
+#saiba-mais {
+    padding: 1rem;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: #1B9ACD;
+    border-radius: 25px;
+    width: auto;
+    margin-top: 2rem;
+}
+
+.metodos img {
+    height: 80px;
+    border-radius: 20px;
+}
+
+.metodos {
+    display: flex;
+    flex-direction: row;
+}
+
+.met1, .met2, .met3 {
+    background-color: #e4e2e2;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px 5px rgba(80, 80, 80, 0.43);
+}
+
+.met1, .met2 {
+    margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+    section {
+        margin: 2rem 5%;
+    }
+    
+    .tea, .caa {
+        padding: 2rem 5%;
+    }
+    
+    .txt1 h1 {
+        font-size: 2.5rem;
+    }
+    
+    .metodos {
+        flex-direction: column;
+    }
+    
+    .met1, .met2 {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
 }
