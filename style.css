@@ -1,104 +1,7 @@
-/* 
 
-section {
-    margin: 3rem 8rem;
-    width: 28vw;
-    height: 80vh;
+main {
+    height: 100vh;
 }
-
-section h4 {
-    color: #42aab8;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.txt1 h1 {
-    color: #1D224F;
-    font-size: 55px;
-    text-align: justify;
-}
-
-.txt1 p {
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 3rem;
-}
-
-.txt1 a {
-    background-color: #3f9cb1;
-    color: #ffffff;
-    font-size: 18px;
-    padding: 15px;
-    font-weight: 600;
-    border-radius: 32px;
-}
-
-.tea {
-    padding: 3rem 8rem;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-    background: linear-gradient(90deg, #1B9ACD 0%, #5CCCE6 100%);
-    width: 100%;
-}
-
-.tea p, .tea h2 {
-    text-align: justify;
-    width: 50vw;
-    padding-right: 3rem;
-    color: #ffffff;
-}
-
-.caa {
-    margin: 3rem 8rem;
-    font-size: 18px;
-    display: flex;
-    flex-direction: row;
-}
-
-.caa p {
-    text-align: justify;
-    width: 50vw;
-}
-
-#saiba-mais {
-    padding: 15px;
-    color: #ffffff;
-    font-weight: 500;
-    background-color: #1B9ACD;
-    border-radius: 25px;
-    width: 50px;
-    margin-top: 2rem;
-}
-
-.metodos img {
-    height: 80px;
-    border-radius: 20px;
-}
-
-.metodos {
-    display: flex;
-    flex-direction: row;
-}
-
-.met1, .met2, .met3 {
-    background-color: #e4e2e2;
-    height: 180px;
-    width: 180px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    border-radius: 25px;
-    box-shadow: 5px 5px 15px 5px rgba(80, 80, 80, 0.43);
-}
-
-.met1, .met2 {
-    margin-right: 2rem;
-}
-
-*/
 
 section {
     margin: 3rem 5%;
@@ -134,11 +37,14 @@ section h4 {
     border-radius: 32px;
 }
 
+/* TEA */
+
 .tea {
+    height: 100vh;
     padding: 3rem 5%;
     font-size: 1.4rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: linear-gradient(90deg, #1B9ACD 0%, #5CCCE6 100%);
 }
 
@@ -147,11 +53,14 @@ section h4 {
     color: #ffffff;
 }
 
+/* CAA */
+
 .caa {
-    margin: 3rem 5%;
+    height: 100vh;
+    padding: 3rem 5%;
     font-size: 1.4rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .caa p {
@@ -195,7 +104,7 @@ section h4 {
     margin-right: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 844px) {
     section {
         margin: 2rem 5%;
     }
