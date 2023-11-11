@@ -104,6 +104,30 @@ section h4 {
     margin-right: 2rem;
 }
 
+form p {
+    font-weight: 500;
+}
+
+input {
+    background-color: #d1d1d1;
+    padding: 12px;
+    border: 0;
+    border-radius: 16px;
+    width: 20vw;
+}
+
+.enviar {
+    background-color: #1B9ACD;
+    border-radius: 25px;
+    padding: 14px;
+    border: 0;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1D224F;
+    margin-top: 2rem;
+}
+
 @media (max-width: 844px) {
     section {
         margin: 2rem 5%;

@@ -98,6 +98,7 @@ font-size: 18px;
 
 .cont {
   margin: 6rem 5% 6rem 5%;
+  max-width: 60vw;
 }
 
 /* Estilos específicos para telas menores, por exemplo, telas com largura de até 768px */
