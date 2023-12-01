@@ -6,7 +6,6 @@
     max-width: 100vw;
     font-family: 'Poppins', sans-serif;
     color: #212832;
-    background-color: #F1F1F1;
 }
 
 /*Barra de Rolagem*/
@@ -26,7 +25,7 @@ body::-webkit-scrollbar {
   }
 
 /*CABEÇALHO*/
-
+/*
 header {
     padding: 2rem 6rem;
     display: flex;
@@ -46,4 +45,80 @@ header li {
 
 a {
     text-decoration: none;
+}
+
+footer {
+  background: linear-gradient(180deg, #1FA9E0 0%, #97EFF0 86%);
+  color: #00425D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 4rem 12rem;
+  font-size: 18px;
+}
+
+.cont {
+  margin: 6rem 16rem 6rem 8rem;
+  font-size: 18px;
+  min-height: 43vh;
+}
+*/
+
+/* Estilos gerais que se aplicam a todas as telas */
+header {
+  padding: 2rem 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer {
+background-color: #1FA9E0;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 2rem 5%;
+font-size: 18px;
+}
+
+.cont {
+  margin: 6rem 5% 6rem 5%;
+  max-width: 60vw;
+}
+
+/* Estilos específicos para telas menores, por exemplo, telas com largura de até 768px */
+@media (max-width: 844px) {
+  header {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  header li {
+      padding: 1rem 0;
+  }
+
+  footer {
+      padding: 2rem 5%;
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .cont {
+      margin: 2rem 5%;
+  }
 }
